@@ -1,0 +1,20 @@
+{
+  "name": "typescript-pdf-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/pdfkit": "^0.13.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
